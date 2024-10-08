@@ -1,0 +1,215 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.head
+{
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 30px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo
+{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+}
+.image
+{
+    cursor: pointer;
+}
+
+.image:hover
+{
+    filter: grayscale(0);
+    transform: scale(1.2);
+    /* transform: rotate3d(1, 1, 1, 45deg); */
+    /* transform: rotate(50deg); */
+    /* transform: rotateX(60deg); */
+}
+
+.nav
+{
+    width: 50%;
+    height: 75px;
+    /* background-color: gray; */
+    display: flex;
+}
+
+
+.list
+{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.banner
+{
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-image: url('https://thumbs.dreamstime.com/b/misty-dawn-light-stoke-charity-village-pond-st-michael-s-church-hampshire-uk-stoke-charity-uk-aug-dawn-light-mist-157322308.jpg');
+    background-position: center;
+}
+
+.banner-class
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.4);
+    display: flex;
+    justify-content: center;
+}
+
+.letter
+{
+   font-size: 75px;
+   color: white;
+   padding-top: 50px;
+   text-align: center;
+   
+}
+
+.quote
+{
+    width: 100%;
+    padding: 50px 200px;
+    display: flex;
+    /* background-color: white; */
+    justify-content: space-between;
+   
+}
+
+.quote-area
+{
+    width: 500px;
+    height: 50px;
+   outline: none;
+   border-radius: 10px;
+   text-indent: 100px;
+   background-color:white;
+   
+
+}
+
+.area
+{
+    width: 200px;
+    height: 50px;
+   outline: none;
+   border-radius: 10px;
+   text-indent: 10px;
+   background-color:white;
+}
+
+.are
+{
+    width: 150px;
+    height: 50px;
+   outline: none;
+   text-indent: 10px;
+   border-radius: 10px;
+   background-color:orange;
+   text-align: center;
+   cursor: pointer;
+   transition: 2s;
+}
+
+.are:hover
+{
+    background-color: rgba(255, 34, 0, 0.242);
+    /* color: rgb(184, 26, 26); */
+}
+
+::placeholder
+{
+    color: rgb(147, 136, 136);
+}
+
+.length
+{
+    width: 100%;
+    padding-left: 340px;
+    padding-right: 350px;
+    padding-bottom: 40px;
+    display: flex;
+    /* background-color: white; */
+    justify-content: space-between;
+}
+
+.len-area
+{
+    width: 250px;
+    height: 50px;
+   outline: none;
+   border-radius: 10px;
+   text-indent: 10px;
+   text-align: center;
+   background-color:orange;
+}
+
+.ready
+{
+    width: 100%;
+    padding: 0px 200px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: white; */
+    row-gap: 50px;
+}
+.ready1
+{
+  color: white;
+  font-size: 55px;
+  font-weight: bolder;
+  padding-left: 10%;
+}
+
+.ready2
+{
+    color: white;
+  font-size: 30px;
+  font-weight: bold;
+  
+}
+
+.ready3
+{
+    color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.ready4
+{
+    color: white;
+  font-size: 25px;
+ padding: 35px;
+  
+}
+
+.length1
+{
+    width: 100%;
+    padding-left: 650px;
+    padding-right: 350px;
+    padding-bottom: 40px;
+    display: flex;
+    /* background-color: white; */
+    justify-content: space-between;
+}
