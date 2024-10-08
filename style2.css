@@ -1,0 +1,78 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.card
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://store-images.s-microsoft.com/image/apps.17599.14222458110220046.63cf67f1-c306-44d3-8890-1cc6b204e75a.c80ed14f-26ee-41fa-bd94-fa317b47228c?mode=scale&q=90&h=1080&w=1920');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child
+{
+    width: 90%;
+    max-width: 500px;
+    padding: 50px 40px;
+    /* color: white; */
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.3);
+    background: rgba(255, 255, 255, 0.152);
+    border-radius: 20px;
+    backdrop-filter: blur(10px) brightness(200%);
+   box-shadow: 4px 4px 40px white;
+   opacity: 0.7; 
+   /* opacity=used for transparency 0.5=50% */
+    
+}
+.head1
+{
+    margin: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+
+.child .head img
+{
+    width: 50px;
+    height: 50px;
+    padding: 10px 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 1s;    
+}
+
+.head img:hover
+{
+    background: black;
+    transform: scale(1.2);
+    /* transform scale if given negatve the img zooms in */
+}
+
+
+.child img
+{
+    /* width: 200px;
+    height: 200px; */
+    border-radius: 80%;
+    margin: 10px;
+    /* cursor: pointer; */
+    /* object-fit: contain; */
+}
+
+/* .child img:hover
+{
+   transform: scale(.5);
+} */
+
+.card .child h1{
+    color: black;
+}
